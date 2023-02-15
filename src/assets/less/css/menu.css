@@ -1,0 +1,70 @@
+.menu {
+  padding: 10px;
+}
+.menu .menu-search {
+  padding: 10px;
+}
+.menu .menu-option {
+  display: flex;
+}
+.menu .menu-item {
+  flex: 1;
+  background-color: #fff;
+  height: 70px;
+  position: relative;
+}
+.menu .m-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu .m-icon {
+  width: 34px;
+  height: 34px;
+}
+.menu .m-text {
+  text-align: center;
+  font-weight: bold;
+  color: #252422;
+  font-size: 14px;
+}
+.menu .m-text.active {
+  color: #0a35b9;
+}
+.menu .menu-product {
+  padding: 10px;
+}
+.menu .m-pto-item {
+  padding: 10px;
+}
+.menu .pro-img {
+  height: 70px;
+  width: 70px;
+}
+.menu .text {
+  width: calc(100% - 150px);
+  margin: 0 10px;
+}
+.menu .text .pro-text {
+  margin-top: calc(35px / 2);
+}
+.menu .text .pro-text .pro-name {
+  font-size: 14px;
+}
+.menu .text .pro-text .pro-enname {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.menu .price {
+  width: 50px;
+  line-height: 70px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+  color: #0a35b9;
+  margin-left: 4px;
+}
+.van-search__content {
+  border-radius: 15px;
+}
